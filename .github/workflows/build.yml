@@ -1,0 +1,23 @@
+name: Conversione interi-romani
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    # Aggiungi condizione per saltare i branch feature
+    if: "!startsWith(github.ref, 'refs/heads/feature/')"
+    
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v3
+      with:
+        java-version: '8.0.412+8'
+        distribution: 'temurin'
+        cache: maven
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml
+    - name: Test with JaCoCo
+      run: mvn test jacoco:report
