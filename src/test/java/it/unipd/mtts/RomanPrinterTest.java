@@ -36,7 +36,19 @@ public class RomanPrinterTest {
             " I    X   \n" +
             " I   X X  \n" +
             "III X   X \n"},
-            {11, null}
+            {26,
+                "X   X X   X V   V III \n" +
+                " X X   X X  V   V  I  \n" +
+                "  X     X    V V   I  \n" +
+                " X X   X X   V V   I  \n" +
+                "X   X X   X   V   III \n"},
+            {42,
+            "X   X L     III III \n" +
+            " X X  L      I   I  \n" +
+            "  X   L      I   I  \n" +
+            " X X  L      I   I  \n" +
+            "X   X LLLLL III III \n"},
+            {51, null}
         });
     }
 

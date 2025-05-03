@@ -26,7 +26,10 @@ public class IntegerToRomanTest {
             { 1, "I" },
             { 4, "IV" },
             { 9, "IX" },
-            {11, null}
+            { 17, "XVII"},
+            { 32, "XXXII"},
+            { 44, "XLIV"},
+            { 52, null}
         });
     }
 
