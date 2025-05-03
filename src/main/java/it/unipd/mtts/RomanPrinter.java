@@ -18,6 +18,22 @@ public class RomanPrinter {
          " I ",
          "III"
       });
+
+      MAP_ART.put('V', new String[]{
+         "V   V",
+         "V   V",
+         " V V ",
+         " V V ",
+         "  V  "
+      });
+
+     MAP_ART.put('X', new String[]{
+         "X   X",
+         " X X ",
+         "  X  ",
+         " X X ",
+         "X   X"
+      });
    }
 
    public static String print(int num) throws RomanException {

@@ -22,7 +22,7 @@ public class IntegerToRomanTest {
     @Parameters
     public static Collection<Object[]> testConditions() {
         return Arrays.asList(new Object[][] {
-            { 0, null}.
+            { 0, null},
             { 1, "I" },
             { 4, "IV" },
             { 9, "IX" },
