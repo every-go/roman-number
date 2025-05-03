@@ -33,7 +33,11 @@ public class IntegerToRomanTest {
             { 70, "LXX"},
             { 90, "XC"},
             { 100, "C"},
-            { 101, null}
+            { 489, "CDLXXXIX"},
+            { 621, "DCXXI"},
+            { 957, "CMLVII"},
+            { 1000, "M"},
+            { 1001, null}
         });
     }
 

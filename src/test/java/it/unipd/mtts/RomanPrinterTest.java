@@ -60,7 +60,19 @@ public class RomanPrinterTest {
             "  X   C      I   I  \n" +
             " X X  C      I   I  \n" +
             "X   X  CCCC III III \n"},
-            {101, null}
+            {737,
+                "DDDD   CCCC  CCCC X   X X   X X   X V   V III III \n" +
+                "D   D C     C      X X   X X   X X  V   V  I   I  \n" +
+                "D   D C     C       X     X     X    V V   I   I  \n" +
+                "D   D C     C      X X   X X   X X   V V   I   I  \n" +
+                "DDDD   CCCC  CCCC X   X X   X X   X   V   III III \n"},
+            {990,
+            " CCCC M   M X   X  CCCC \n" +
+            "C     MM MM  X X  C     \n" +
+            "C     M M M   X   C     \n" +
+            "C     M   M  X X  C     \n" +
+            " CCCC M   M X   X  CCCC \n"},
+            {1001, null}
         });
     }
 
