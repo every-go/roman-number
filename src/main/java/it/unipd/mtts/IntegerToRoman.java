@@ -12,6 +12,8 @@ public class IntegerToRoman {
    private static final Map<Integer, String> convert = new LinkedHashMap<>();
 
    static {
+      convert.put(50, "L");
+      convert.put(40, "XL");
       convert.put(10, "X");
       convert.put(9, "IX");
       convert.put(5, "V");
@@ -21,7 +23,7 @@ public class IntegerToRoman {
 
    public static String convert(int number) throws RomanException{
       String result ="";
-      if(number < 1 || number > 10){
+      if(number < 1 || number > 50){
          throw new RomanException("Numero fuori dal limite");
       }
       for (Map.Entry<Integer, String> entry : convert.entrySet()) {

@@ -34,6 +34,14 @@ public class RomanPrinter {
          " X X ",
          "X   X"
       });
+      
+     MAP_ART.put('L', new String[]{
+      "L    ",
+      "L    ",
+      "L    ",
+      "L    ",
+      "LLLLL"
+      });
    }
 
    public static String print(int num) throws RomanException {
