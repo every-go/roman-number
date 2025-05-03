@@ -22,8 +22,11 @@ public class IntegerToRomanTest {
     @Parameters
     public static Collection<Object[]> testConditions() {
         return Arrays.asList(new Object[][] {
+            { 0, null}.
             { 1, "I" },
-            {5, null} //DEVE lanciare un'eccezione
+            { 4, "IV" },
+            { 9, "IX" },
+            {11, null}
         });
     }
 

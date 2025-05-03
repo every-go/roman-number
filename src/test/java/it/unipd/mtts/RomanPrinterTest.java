@@ -23,14 +23,20 @@ public class RomanPrinterTest {
     public static Collection<Object[]> testConditions() {
         return Arrays.asList(new Object[][] {
             {0, null},
-            {1,
-            "III \n" +
-            " I  \n" +
-            " I  \n" +
-            " I  \n" +
-            "III \n"
+            {3,
+            "III III III \n" +
+            " I   I   I  \n" +
+            " I   I   I  \n" +
+            " I   I   I  \n" +
+            "III III III \n"
             },
-            {2, null}
+            {9,
+            "III X   X \n" +
+            " I   X X  \n" +
+            " I    X   \n" +
+            " I   X X  \n" +
+            "III X   X \n"},
+            {11, null}
         });
     }
 
