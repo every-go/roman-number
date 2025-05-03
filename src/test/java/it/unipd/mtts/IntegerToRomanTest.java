@@ -29,7 +29,15 @@ public class IntegerToRomanTest {
             { 17, "XVII"},
             { 32, "XXXII"},
             { 44, "XLIV"},
-            { 52, null}
+            { 58, "LVIII" },
+            { 70, "LXX"},
+            { 90, "XC"},
+            { 100, "C"},
+            { 489, "CDLXXXIX"},
+            { 621, "DCXXI"},
+            { 957, "CMLVII"},
+            { 1000, "M"},
+            { 1001, null}
         });
     }
 
