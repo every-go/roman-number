@@ -42,6 +42,14 @@ public class RomanPrinter {
       "L    ",
       "LLLLL"
       });
+
+      MAP_ART.put('C', new String[]{
+         " CCCC",
+         "C    ",
+         "C    ",
+         "C    ",
+         " CCCC"
+     });
    }
 
    public static String print(int num) throws RomanException {
