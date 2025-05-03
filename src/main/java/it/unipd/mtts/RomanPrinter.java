@@ -50,6 +50,21 @@ public class RomanPrinter {
          "C    ",
          " CCCC"
      });
+     MAP_ART.put('D', new String[]{
+      "DDDD ",
+      "D   D",
+      "D   D",
+      "D   D",
+      "DDDD "
+      });
+
+      MAP_ART.put('M', new String[]{
+      "M   M",
+      "MM MM",
+      "M M M",
+      "M   M",
+      "M   M"
+      });
    }
 
    public static String print(int num) throws RomanException {
