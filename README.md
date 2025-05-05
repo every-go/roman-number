@@ -1,6 +1,6 @@
 # roman-number
 
-[![Conversione interi-romani](https://github.com/every-go/roman-number/actions/workflows/build.yml/badge.svg)](https://github.com/every-go/roman-number/actions/workflows/build.yml) [![Checkstyle](https://github.com/every-go/roman-number/workflows/Checkstyle/badge.svg)](https://github.com/every-go/roman-number/actions)
+[![Conversione interi-romani](https://github.com/every-go/roman-number/actions/workflows/build.yml/badge.svg)](https://github.com/every-go/roman-number/actions/workflows/build.yml) [![Checkstyle](https://github.com/every-go/roman-number/workflows/Checkstyle/badge.svg)](https://github.com/every-go/roman-number/actions?query=workflow%3ACheckstyle)
 
 | Branch  | Coverage |
 |---------|----------|
